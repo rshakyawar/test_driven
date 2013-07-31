@@ -1,0 +1,301 @@
+<div class="wrapper">
+	<div id="header">
+		<div class="name-form">
+			<form action="#">
+				<fieldset>
+					<div class="col">
+						<strong class="logo"><a href="#"><img src="../assets/logo.png" alt="image" /></a></strong>
+						<div class="cols">
+							<select>
+								<option>Advertiser 1</option>
+								<option>Advertiser 2</option>
+								<option>Advertiser 3</option>
+							</select>
+							<select>
+								<option>Agency 1</option>
+								<option>Agency 2</option>
+								<option>Agency 3</option>
+							</select>
+						</div>
+					</div>
+					<div class="col">
+						<div class="select">
+							<select class="name">
+								<option>John User</option>
+								<option>Preferences</option>
+								<option>Help</option>
+								<option>Log Out</option>
+							</select>
+						</div>
+						<strong class="logo verity"><a href="#"><img src="../assets/logo-verity.png" alt="image" /></a></strong>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+	</div><!-- / header -->
+	<div id="main">
+		<div id="tabs">
+			<div class="main_tab">
+			<ul class="tabset">
+				<li  class="ui-state-active"><a class="upper_tab" id="dashboard">dashboard</a></li>
+				<li><a class="upper_tab" id="results">results</a></li>
+				<li><a class="upper_tab" id="optimization">optimization</a></li>
+				<li><a class="upper_tab" id="trends">trends</a></li>
+				<li><a class="upper_tab" id="audience">audience</a></li>
+				<li><a class="upper_tab" id="delivery">delivery</a></li>
+			 </ul>
+		   </div>
+			<div id="tab-dashboard">
+				<div class="child-tabs">
+					<ul class="tabset">
+						<li class="ui-state-active"><a class="lower_tab " id="impressions">impressions</a></li>
+						<li><a class="lower_tab" id="actions">actions</a></li>
+						<li><a class="lower_tab" id="viewactions">view actions</a></li>
+						<li><a class="lower_tab" id="engagements">engagements</a></li>
+						<li><a class="lower_tab" id="clicks">clicks</a></li>
+					</ul><!-- / tabset -->
+					<div id="tab-dashboard-impressions">
+						<div class="holder">
+							<div class="report-form">
+								<form action="#">
+									<fieldset>
+										<label for="lbl01" class="first">Advertiser</label>
+										<div class="customForm-unselectable chk-area chk-unchecked chk-focus"><span><input type="checkbox" id="lbl01" class="check_box_style" /></span></div>
+										
+								
+										
+										<label for="lbl02">Campaign</label>
+										<div class="customForm-unselectable chk-area chk-unchecked chk-focus"><span><input type="checkbox" id="lbl02" class="check_box_style" /></span></div>
+										
+										<img src="../assets/ico-01.png" alt="image" width="17" height="16" />
+										<label for="lbl03">Site</label>
+										<div class="customForm-unselectable chk-area chk-unchecked chk-focus"><span><input type="checkbox" id="lbl03" class="check_box_style"/></span></div>
+										
+										<img src="../assets/ico-01.png" alt="image" width="17" height="16" />
+										<label for="lbl04">Placement</label>
+										<div class="customForm-unselectable chk-area chk-unchecked chk-focus"><span><input type="checkbox" id="lbl04" class="check_box_style" /></span></div>
+										
+										<img src="../assets/ico-01.png" alt="image" width="17" height="16" />
+										<select class="attribute">
+											<option>Online Attribute</option>
+											<option>Online Attribute</option>
+											<option>Online Attribute</option>
+										</select>
+										<a href="#box" class="fancybox btn">Adjust Report</a>
+									</fieldset>
+								</form>
+							</div>
+						</div>
+						<div class="comming_data">
+						<%= render 'comming_data' %>
+					    </div>
+					</div><!-- / tab-dashboard-impressions -->
+					
+				</div>
+			</div><!-- / tab-delivery -->
+		</div>
+	</div>
+</div><!-- / wrapper -->
+<div id="footer">
+	<p>Copyright Korrelate 2013. All rights reserved</p>
+</div><!-- / footer -->
+<div class="popups">
+	<div class="choice-form" id="box">
+		<form action="#">
+			<fieldset>
+				<div class="heading">
+					<input type="radio" id="lbl1" checked="checked" name="name01"/>
+					<label for="lbl1">Purchase Month</label>
+					<input type="radio" id="lbl2" name="name01"/>
+					<label for="lbl2">Event Month</label>
+				</div><!-- / heading -->
+				<div class="cols">
+					<div class="col">
+						<h3>start month</h3>
+						<div class="years">
+							<div class="holder">
+								<a href="#" class="prev">prev</a>
+								<a href="#" class="next">next</a>
+								<span>2012</span>
+							</div>
+							<ul>
+								<li><a href="#">Jan</a></li>
+								<li><a href="#">feb</a></li>
+								<li><a href="#">mar</a></li>
+								<li class="active"><a href="#">apr</a></li>
+								<li><a href="#">may</a></li>
+								<li><a href="#">jun</a></li>
+								<li><a href="#">jul</a></li>
+								<li><a href="#">aug</a></li>
+								<li><a href="#">sep</a></li>
+								<li><a href="#">oct</a></li>
+								<li><a href="#">nov</a></li>
+								<li><a href="#">dec</a></li>
+							</ul>
+						</div><!-- / years -->
+					</div><!-- / col -->
+					<div class="col">
+						<h3 class="center">attribution window</h3>
+						<h3 class="text">report window</h3>
+						<div class="table">
+							<table>
+								<tr>
+									<th class="col01">&nbsp;</th>
+									<th class="col02">1 Mo</th>
+									<th class="col3">2 Mo</th>
+									<th class="col04">3 Mo</th>
+								</tr>
+								<tr>
+									<td class="col01"><img src="../assets/bg-text-01.png" alt="image" width="33" height="46" /></td>
+									<td class="col02">
+										<div class="radio-area">
+											<input type="radio" name="name02" />
+										</div>
+									</td>
+									<td class="col03">
+										<div class="radio-area">
+											<input type="radio" name="name02" />
+										</div>
+									</td>
+									<td class="col04">
+										<div class="radio-area">
+											<input type="radio" name="name02" checked="checked"/>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td class="col01"><img src="../assets/bg-text-02.png" alt="image" width="33" height="46" /></td>
+									<td class="col02">
+										<div class="radio-area">
+											<input type="radio" name="name02" />
+										</div>
+									</td>
+									<td class="col03">
+										<div class="radio-area">
+											<input type="radio" name="name02" />
+										</div>
+									</td>
+									<td class="col04">
+										<div class="radio-area">
+											<input type="radio" name="name02" />
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td class="col01"><img src="../assets/bg-text-03.png" alt="image" width="33" height="46" /></td>
+									<td class="col02">
+										<div class="radio-area">
+											<input type="radio" name="name02" />
+										</div>
+									</td>
+									<td class="col03">
+										<div class="radio-area">
+											<input type="radio" name="name02" />
+										</div>
+									</td>
+									<td class="col04">
+										<div class="radio-area">
+											<input type="radio" name="name02" />
+										</div>
+									</td>
+								</tr>
+							</table>
+						</div><!-- / table -->
+					</div><!-- / col -->
+					<div class="col">
+						<h3>Result</h3>
+						<div class="result">
+							<ul>
+								<li class="color-01">APR</li>
+								<li class="color-02">may</li>
+								<li class="color-03">jun</li>
+							</ul>
+							<ul class="level-02">
+								<li class="color-01">APR</li>
+								<li class="color-02">may</li>
+								<li class="color-03">jun</li>
+							</ul>
+							<ul class="level-03">
+								<li class="color-01">APR</li>
+								<li class="color-02">may</li>
+								<li class="color-03">jun</li>
+							</ul>
+						</div>
+					</div><!-- / col -->
+				</div><!-- / cols -->
+			</fieldset>
+		</form>
+	</div><!-- / choice-form -->
+</div>
+
+<style>
+	.check_box_style{
+		-moz-transform: scale(1.5);
+	}
+</style>
+
+<script type="text/javascript"> 
+  $(function($) {
+    $("#tabs .upper_tab").click(function() {
+    	$(".main_tab").find("li").removeClass("ui-state-active")
+        var upper_tab = $(this).attr("id");
+       $("#"+upper_tab).parent("li").addClass("ui-state-active")
+       $('.child-tabs').find('li').each(function() {
+        var sub_tab = $(this).hasClass("ui-state-active")
+          if (sub_tab == true){
+          var sub_tab_id =  $(this).find("a").attr("id")
+          var checked_checkbox = $('input:checkbox:checked').map(function() { return this.id; }).get();
+         $.ajax({
+          type: 'GET',
+           url: '<%=home_show_data_path %>',
+           data: {'upper_tab': upper_tab ,'sub_tab': sub_tab_id, 'checked_checkbox': checked_checkbox},
+           success: function(data){
+            
+           }
+        });
+
+        }
+       });
+     });
+    $("#tabs .lower_tab").click(function() {
+     	$(".child-tabs").find("li").removeClass("ui-state-active")
+        var lower_tab = $(this).attr("id");
+       $("#"+lower_tab).parent("li").addClass("ui-state-active")
+      
+       $('.upper_tab').parent('li').each(function() {
+         var upper_tab = $(this).hasClass("ui-state-active")
+          if (upper_tab == true){
+          var upper_tab_id =  $(this).find("a").attr("id")
+          var checked_checkbox = $('input:checkbox:checked').map(function() { return this.id; }).get();
+           $.ajax({
+          type: 'GET',
+           url: '<%=home_show_data_path %>',
+           data: {'upper_tab': upper_tab_id ,'sub_tab': lower_tab, 'checked_checkbox': checked_checkbox},
+           success: function(data){
+           
+           }
+        });
+        }
+       });
+     });
+  
+	$('.check_box_style').click(function() {
+		var uper_tab =  $("#tabs .ui-state-active").find("a").attr("id")
+		 var lower_tab =  $("#tab-dashboard .ui-state-active").find("a").attr("id")
+	  
+	      var checked_checkbox = $('input:checkbox:checked').map(function() { return this.id; }).get();
+	    
+	    $.ajax({
+          type: 'GET',
+           url: '<%=home_show_data_path %>',
+           data: {'upper_tab': uper_tab ,'sub_tab': lower_tab, 'checked_checkbox': checked_checkbox},
+           success: function(data){
+           
+           }
+           });
+	   
+	});   
+});
+$(':checkbox:checked').prop('checked',false);
+</script>
+

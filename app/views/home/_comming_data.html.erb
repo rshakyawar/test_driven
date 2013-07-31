@@ -1,0 +1,7 @@
+<div class="coming-soon"> <%= @upper_tab.nil? ? "Dashboard" : @upper_tab.capitalize %>, <%= @sub_tab.nil? ? "Impressions" : @sub_tab.capitalize  %> 
+<% if !@check_box_array.blank?%>	
+<% @check_box_array.each_with_index do |x,index|%>
+<%= "," if index < @check_box_array.size %> <%= x%>
+<%end%>
+<%end%>
+	Your Data. Coming Soon...</div>
